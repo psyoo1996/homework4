@@ -2,14 +2,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-
 header img {
   width: 100%;
   height: auto;
@@ -52,17 +44,14 @@ header img {
 }
 
 @media all and (min-width: 700px){
-  header {
+  header img {
     display: flex;
+    width: 400px;
+    height: auto;
     align-items: center;
     justify-content: left;
     flex-direction: row;
     flex-wrap: nowrap;
-  }
-
-  header img {
-    width: 400px;
-    height: auto;
   }
 
   .nav_links {
@@ -74,7 +63,6 @@ header img {
   }
 
   .pricing{
-    min-height: 475px;
     display: flex;
     align-items: center;
     justify-content: center;
