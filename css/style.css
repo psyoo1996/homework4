@@ -1,66 +1,26 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-size: 16pt;
   font-family: 'Poppins', sans-serif;
 }
 
-main {
-  background-color: #efefef;
-}
-
 header {
-  background: #fff;
-  border-bottom: 3px solid #50C7C7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-h1 {
-  font-size: 2em;
-  text-align: center;
-  padding-top: 20px;
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: 1.5em;
-  text-align: center;
-  padding-top: 20px;
-}
-
-h4 {
-  font-size: 1.25em;
-  font-weight: bold;
-}
-
-p {
-  padding: 0 30px;
-}
-
-a.skip{
-  background: white;
-  left: 0;
-  padding: 6px;
-  position: absolute;
-  top: -40px;
-  -webkit-transition: top 1s ease-out;
-  transition: top 1s ease-out;
-  z-index: 1;
-}
-
-a.skip:focus{
-  top:20px;
-  color: black;
-  text-decoration-style: solid;
-}
-
-*:focus{
-  border: 2px solid black;
+header img {
+  width: 100%;
+  height: auto;
 }
 
 .nav_links {
-  margin-bottom: 20px;
   display: flex;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .nav_item a{
@@ -77,6 +37,10 @@ a.skip:focus{
 .pricing{
   min-height: 475px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -119,11 +83,17 @@ a.skip:focus{
 .gallery {
   padding-bottom: 20px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .gallery img {
   border: 5px solid #50C7C7;
   margin: 10px;
+  width: 100%;
+  height: auto;
 }
 
 footer{
@@ -131,4 +101,8 @@ footer{
   color: white;
   padding: 30px;
   text-align: center;
+}
+
+@media all and (min-width: 700px){
+
 }
