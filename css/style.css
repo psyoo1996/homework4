@@ -30,19 +30,7 @@ header img {
   flex-wrap: wrap;
 }
 
-.nav_item a{
-  padding: 10px;
-}
-
-.nav_item a:hover, a:focus{
-  color: #50C7C7;
-  text-decoration: underline;
-  -webkit-text-decoration-style: dotted;
-          text-decoration-style: dotted;
-}
-
 .pricing{
-  min-height: 475px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,45 +38,7 @@ header img {
   flex-wrap: wrap;
 }
 
-.card {
-  margin: 12px;
-  background: #fff;
-  overflow: hidden;
-  border-radius: 30px 30px 0 0;
-  padding: 0 0 20px 0;
-  width: 100%;
-}
-
-.card > ul{
-  list-style: none;
-  padding-left: 5px;
-}
-
-.card > ul li {
-  width: 90%;
-  margin: 20px auto;
-}
-
-.card button{
-  width: 90%;
-  height: 40px;
-  border: 0;
-  margin-left: 5%;
-  border-radius: 7px;
-  background: #288080;
-  color: white;
-  font-size: 1em;
-}
-
-.card h3 {
-  font-size: 4em;
-  color: white;
-  text-align: center;
-  background-color: #288080;
-}
-
 .gallery {
-  padding-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -97,17 +47,8 @@ header img {
 }
 
 .gallery img {
-  border: 5px solid #50C7C7;
-  margin: 10px;
   width: 100%;
   height: auto;
-}
-
-footer{
-  background-color: black;
-  color: white;
-  padding: 30px;
-  text-align: center;
 }
 
 @media all and (min-width: 700px){
@@ -142,16 +83,10 @@ footer{
   }
 
   .card {
-    margin: 12px;
-    background: #fff;
-    overflow: hidden;
-    border-radius: 30px 30px 0 0;
-    padding: 0 0 20px 0;
     width: 300px;
   }
 
   .gallery {
-    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -160,8 +95,6 @@ footer{
   }
 
   .gallery img {
-    border: 5px solid #50C7C7;
-    margin: 10px;
     width: 300px;
     height: 200px;
   }
