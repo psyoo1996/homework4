@@ -55,7 +55,7 @@ header img {
   header {
     display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: nowrap;
   }
@@ -68,9 +68,8 @@ header img {
   .nav_links {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: flex-end;
     flex-direction: row;
-    text-align: right;
     flex-wrap: nowrap;
   }
 
