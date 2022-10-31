@@ -4,14 +4,17 @@ body {
 
 header {
   display: flex;
-  width: 100%;
-  height: auto;
   align-items: center;
   justify-content: left;
   flex-direction: column;
   flex-wrap: wrap;
   animation-name: fadein;
   animation-duration: 3s;
+}
+
+header img {
+  width: 100%;
+  height: auto;
 }
 
 @keyframes fadein {
@@ -57,7 +60,7 @@ header {
     flex-wrap: nowrap;
   }
 
-  head img {
+  header img {
     width: 400px;
     height: auto;
   }
